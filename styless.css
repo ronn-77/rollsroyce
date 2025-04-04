@@ -1,0 +1,106 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth; /* Smooth scroll */
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Hero section */
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+  background-color:
+}
+
+
+
+.hero h2 {
+  font-size: 3em;
+}
+
+.btn {
+  background: #000;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+  padding: 40px 20px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* Gallery Page */
+.gallery img {
+  width: 100%;
+  max-width: 200px;
+  max-height:300px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05); /* Zoom effect */
+}
+
+/* Footer */
+footer {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .hero h2 {
+    font-size: 2.2em;
+  }
+
+  .gallery img {
+    max-width: 90%;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
